@@ -14,24 +14,6 @@ app.use((req,res,next)=>{
     next();
 })
 
-// var request = require('request').defaults({ encoding: null });
-// request.get('https://tinyjpg.com/images/social/website.jpg', function (err, res, body) {
-//     //   console.log(body);
-//     //   console.log(body);
-//     try {
-//         new ExifImage({ image :body }, function (error, exifData) {
-//             if (error)
-//                 console.log('Error: '+error.message);
-//             else
-//                 console.log(exifData); // Do something with your data!
-//         });
-//     } catch (error) {
-//         console.log('Error: ' + error.message);
-//     }
-      
-      
-// });
-
 
 const imageRouter=require('./Routes/ImageRouter');
 app.use('/api',imageRouter);
