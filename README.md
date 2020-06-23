@@ -6,6 +6,7 @@
 5. Move into the **backend-assignment** directory and install all the dependencies mentioned in the package.json file using **npm install** <br>
 6. Finally, start the node app using command **npm start** <br>
 7. **Postman** can be used for API testing.
+8. App runs on Port Number:2000 .
 
 ## End points:
 1. **/api/postImage** : For post request <br>
